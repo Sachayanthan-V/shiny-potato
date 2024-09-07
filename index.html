@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Website</title>
+    <!-- <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="index3.css"> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <section id="decorative-background"></section>
+
+    <header>
+        <h1>Happy Anniversary!</h1>
+        <p>💚 Wish you a Happy Anniversary my life 💚</p>
+    </header>
+
+    <!-- <section id="photos-videos">
+        <h2>Photos and Videos</h2>
+        <div id="gallery">
+            <section id="photos-videos">
+                <h2>Photos and Videos</h2>
+                <div id="gallery">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Photo 1">
+                        <p>Our first vacation together.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Photo 2">
+                        <p>Celebrating our anniversary last year.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x200?text=Photo+3" alt="Photo 3">
+                        <p>Fun day at the park.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x200?text=Photo+4" alt="Photo 4">
+                        <p>Cooking our favorite meal together.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x200?text=Photo+5" alt="Photo 5">
+                        <p>Weekend getaway to the beach.</p>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </section> -->
+
+    <section id="love-story">
+        <h2>Our Love Story</h2>
+        <div class="timeline">
+            <div class="timeline-items">
+                <div class="timeline-item left" id="item1">
+                    <div class="timeline-image">
+                        <img src="./images/pic1.jpg" alt="First Meeting">
+                    </div>
+                    <div class="timeline-content">
+                        <p>Our first meeting was magical, just like a blooming flower.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" id="item2">
+                    <div class="timeline-image">
+                        <img src="./images/pic2.jpg" alt="First Meeting">
+                    </div>
+                    <div class="timeline-content">
+                        <p>Our first date at the park, surrounded by nature and blooming flowers.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left" id="item3">
+                    <div class="timeline-image">
+                        <img src="./images/pic3.jpg" alt="First Meeting">
+                    </div>
+                    <div class="timeline-content">
+                        <p>Celebrating our anniversary with a romantic dinner under the stars.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" id="item4">
+                    <div class="timeline-image">
+                        <img src="./images/pic4.jpg" alt="First Meeting">
+                    </div>
+                    <div class="timeline-content">
+                        <p>Our unforgettable vacation, filled with laughter and love.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left" id="item5">
+                    <div class="timeline-image">
+                        <img src="./images/pic5.jpg" alt="First Meeting">
+                    </div>
+                    <div class="timeline-content">
+                        <p>Our unforgettable vacation, filled with laughter and love.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="message">
+        <h2>Heartfelt Message</h2>
+        <!-- <p>Heartfelt message goes here</p> -->
+        <div class="message-content">
+            <p>
+                My dearest Wife,
+            </p>
+            <p>
+                As we celebrate our anniversary, I want you to know how much you mean to me. Each day with you is a cherished gift, filled with love, laughter, and joy. From the moment we met, you have been my rock, my confidant, and my greatest love.
+            </p>
+            <p>
+                Looking back on all the wonderful memories we've created together, I am filled with gratitude and excitement for the future. Thank you for being by my side, for your unwavering support, and for making every moment special.
+            </p>
+            <p>
+                Here’s to many more years of happiness, love, and adventure. I love you more than words can express.
+            </p>
+            <p>
+                Forever yours,<br>
+                Sachin
+            </p>
+        </div>        
+    </section>
+
+    <section id="quiz-game">
+        <h2>Interactive Quiz: <hr> <br> How Well Do You Know Us?</h2>
+        <div id="quiz">
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. Where did we have our first date?</p>
+                    <label><input type="radio" name="q1" value="a"> Café Downtown</label>
+                    <label><input type="radio" name="q1" value="b"> The Beach</label>
+                    <label><input type="radio" name="q1" value="c"> The Park</label>
+                </div>
+                <div class="question">
+                    <p>2. What is my favorite movie?</p>
+                    <label><input type="radio" name="q2" value="a"> Inception</label>
+                    <label><input type="radio" name="q2" value="b"> The Matrix</label>
+                    <label><input type="radio" name="q2" value="c"> Interstellar</label>
+                </div>
+                <div class="question">
+                    <p>3. When is our anniversary?</p>
+                    <label><input type="radio" name="q3" value="a"> September 6</label>
+                    <label><input type="radio" name="q3" value="b"> December 25</label>
+                    <label><input type="radio" name="q3" value="c"> July 4</label>
+                </div>
+                <button type="button" onclick="checkAnswers()">Submit</button>
+            </form>
+            <div id="quiz-result"></div>
+        </div>
+    </section>   
+
+    <section id="playlist">
+        <h2>Our Favorite Playlist</h2>
+        <div id="playlist-container">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/BddP6PYo2gs?si=iHa25NcQYxuLVzTj" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen
+                >
+            </iframe>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BddP6PYo2gs?si=iHa25NcQYxuLVzTj&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        </div>
+        <!-- <p>Enjoy our favorite tunes. The playlist will start playing automatically!</p> -->
+        <!-- <div id="playlist-controls">
+            <label for="playlist">Choose a playlist:</label>
+            <select id="playlist" onchange="updatePlaylist()">
+                <option value="PLw-VjHDlEOgs6575BR4qfxI5GuC3jCCoo">Favorites</option>
+                <option value="PL8d6LyzO6s8jzKptOo4EYb5v6ZYIB0gLw">Chill Vibes</option>
+                <option value="PLK5b6tZ6Umi64ZroEhrWZWk26gk8VglJz">Upbeat Hits</option>
+            </select>
+        </div>
+         -->
+    </section>    
+
+    <section id="date-night">
+        <h2>Date Night Ideas</h2>
+        <div id="date-night-filter">
+            <input type="text" id="filter-input" placeholder="Filter date night ideas..." onkeyup="filterIdeas()">
+        </div>
+        <div id="date-ideas">
+            <div class="date-item">
+                <h3>Stargazing Picnic</h3>
+                <p>Pack a blanket, some snacks, and head to a quiet spot to enjoy the stars. Perfect for a romantic and relaxing evening.</p>
+            </div>
+            <div class="date-item">
+                <h3>Cooking Class</h3>
+                <p>Sign up for a cooking class and learn how to make a new dish together. It’s a fun and delicious way to bond.</p>
+            </div>
+            <div class="date-item">
+                <h3>Movie Marathon</h3>
+                <p>Create a cozy movie night with all your favorite films and snacks. Add some comfy blankets and it’s the perfect night in.</p>
+            </div>
+            <div class="date-item">
+                <h3>Beach Bonfire</h3>
+                <p>Head to the beach for a bonfire night. Roast marshmallows, enjoy the ocean breeze, and make some great memories.</p>
+            </div>
+            <div class="date-item">
+                <h3>Art Gallery Visit</h3>
+                <p>Spend the day exploring a local art gallery or museum. It’s a great way to enjoy culture and have interesting conversations.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- <section id="bucket-list">
+        <h2>Our Bucket List</h2>
+        <div id="bucket-list-items">
+            <div class="bucket-item">
+                <h3>Travel to Japan</h3>
+                <p>Experience the cherry blossoms, explore Tokyo, and visit ancient temples.</p>
+            </div>
+            <div class="bucket-item">
+                <h3>Take a Hot Air Balloon Ride</h3>
+                <p>Soar above the clouds and enjoy breathtaking views from a hot air balloon.</p>
+            </div>
+            <div class="bucket-item">
+                <h3>Learn to Surf</h3>
+                <p>Hit the waves and learn how to surf together on a sunny beach.</p>
+            </div>
+            <div class="bucket-item">
+                <h3>Go on a Safari</h3>
+                <p>Witness the majestic wildlife in their natural habitat on an African safari.</p>
+            </div>
+            <div class="bucket-item">
+                <h3>Attend a Major Festival</h3>
+                <p>Join in the excitement of a major festival like Oktoberfest or the Rio Carnival.</p>
+            </div>
+        </div>
+        <div id="bucket-list-items">
+            <div class="bucket-item">
+                <input type="checkbox" id="item1">
+                <label for="item1">
+                    <h3>Travel to Japan</h3>
+                    <p>Experience the cherry blossoms, explore Tokyo, and visit ancient temples.</p>
+                </label>
+            </div>
+        </div>    
+    </section> -->
+    <section id="bucket-list">
+        <h2>Our Bucket List</h2>
+        <div id="cube-wrapper">
+            <div id="cube">
+                <div class="face frontface">
+                    <!-- <h3>Travel to Japan</h3>
+                    <p>Experience the cherry blossoms, explore Tokyo, and visit ancient temples.</p> -->
+                    <img src="./images/pic5.jpg" alt="">
+                </div>
+                <div class="face backface">
+                    <!-- <h3>Take a Hot Air Balloon Ride</h3>
+                    <p>Soar above the clouds and enjoy breathtaking views from a hot air balloon.</p> -->
+                    <img src="./images/pic5.jpg" alt="">
+                </div>
+                <div class="face leftface">
+                    <!-- <h3>Learn to Surf</h3>
+                    <p>Hit the waves and learn how to surf together on a sunny beach.</p> -->
+                    <img src="./images/pic5.jpg" alt="">
+                </div>
+                <div class="face rightface">
+                    <!-- <h3>Go on a Safari</h3>
+                    <p>Witness the majestic wildlife in their natural habitat on an African safari.</p> -->
+                    <img src="./images/pic5.jpg" alt="">
+                </div>
+                <div class="face topface">
+                    <!-- <h3>Attend a Major Festival</h3>
+                    <p>Join in the excitement of a major festival like Oktoberfest or the Rio Carnival.</p> -->
+                    <img src="./images/pic5.jpg" alt="">
+                </div>
+                <div class="face bottomface">
+                    <!-- <h3>Explore the World</h3>
+                    <p>Discover new places and cultures as you travel the world together.</p> -->
+                    <img src="./images/pic5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="countdown">
+        <h2>Countdown to Next Anniversary</h2>
+        <div id="countdown-timer">
+            <!-- Countdown timer will go here -->
+        </div>
+    </section>
+
+    <section id="map">
+        <h2>Our Special Place</h2>
+        <div id="map-container">
+            <!-- Google Maps embed -->
+            <iframe 
+                id="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0443642049316!2d-122.4194186846811!3d37.77492927975906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808bfe6b3b7d%3A0x1e0f707c539fc71a!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1677240675206!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div id="map-controls">
+            <label for="location">Choose a location:</label>
+            <select id="location" onchange="updateMap()">
+                <option value="San+Francisco,CA">San Francisco, CA</option>
+                <option value="New+York,NY">New York, NY</option>
+                <option value="Paris,France">Paris, France</option>
+                <option value="Tokyo,Japan">Tokyo, Japan</option>
+            </select>
+        </div>
+        
+        <p>Our favorite place to visit or where we made unforgettable memories.</p>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting our special anniversary page!</p>
+    </footer>
+    <button style="color: white; font-weight: 800;" id="scroll-to-top" onclick="scrollToTop()">Scroll top</button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
